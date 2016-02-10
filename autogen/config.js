@@ -11,6 +11,7 @@ exports.autogenFenceComments = {
     '.cpp': { start: cStyleAutogenStart, end: cStyleAutogenEnd },
     '.h': { start: cStyleAutogenStart, end: cStyleAutogenEnd },
     '.java': { start: cStyleAutogenStart, end: cStyleAutogenEnd },
+    '.rs': { start: cStyleAutogenStart, end: cStyleAutogenEnd },
     '.md': { start: /<!--\s*~autogen *(.+)-->/, end: "<!-- ~autogen -->" },
     '.lua': { start: /--\s*~autogen *(.+)/, end: "-- ~autogen" },
     '.py': { start: /#\s*~autogen *(.+)/, end: "# ~autogen" },
